@@ -24,8 +24,17 @@
 <div class="section-index"><span>EXPLORE THE PROJECT</span><a href="#projet">01 / Understand</a><a href="#resultats">02 / Explore</a><a href="#evenements">03 / Follow</a><a href="#equipe">04 / Meet the team</a></div>
 <section class="section about" id="projet"><div class="section-label">01 — THE PROJECT</div><div class="section-body">
 <h2>How reliable is a prediction?<br>And its explanation?</h2>
-<p>Medical-image models can be confident when they are wrong. EQUR-XSM aims to quantify this uncertainty and make visual explanations more informative for clinicians.</p>
-<p class="muted">The project connects Evidential Deep Learning (EDL), confidence calibration and explainable AI (XAI). Its research programme addresses three complementary questions.</p>
+<article class="project-summary" id="project-summary" aria-labelledby="overview-title">
+<h3 id="overview-title">Project overview</h3>
+<p><strong>EQUR-XSM — Evidential Quantification of Uncertainty for Reliability in XAI Saliency Maps</strong> investigates how medical-image AI can communicate both its predictions and their reliability. It combines uncertainty estimation, confidence calibration and visual explanations, with applications in classification and segmentation. Led by Dawood Al Chanti at GIPSA-lab, this ANR JCJC project runs from October 2025 to October 2029.</p>
+<h3>Scientific summary</h3>
+<p>A medical-image model can produce an incorrect prediction with high confidence. A visual explanation alone does not resolve this problem: highlighting a region does not establish that the explanation is reliable. EQUR-XSM addresses these connected challenges by studying uncertainty in predictions and in the saliency maps used to explain them.</p>
+<p>The project builds on <strong>Evidential Deep Learning (EDL)</strong> to estimate uncertainty and improve confidence calibration. It also investigates saliency maps enriched with pixel-wise uncertainty, aiming to provide information about influential image regions and the reliability of their interpretation.</p>
+<p>A further objective is to combine complementary imaging modalities, such as MRI and CT, while accounting for the uncertainty associated with each input. The programme extends from image classification to single-modality and multimodal segmentation, targeting applications involving tumours, skeletal muscle abnormalities and haematological diseases.</p>
+<p>Planned evaluation includes open datasets and clinical collaboration with the university hospitals of Grenoble and Nantes. The intended contribution is a set of methods for better-calibrated predictions, uncertainty-aware explanations and more reliable multimodal analysis. These are research objectives; clinical benefit remains to be established.</p>
+<p class="source-note">Project descriptions: <a href="https://anr.fr/Project-ANR-25-CE45-1573">ANR</a> · <a href="https://www.gipsa-lab.grenoble-inp.fr/?p=18497">GIPSA-lab</a>.</p>
+</article>
+<p class="muted">The research programme addresses three complementary questions.</p>
 <div class="three-cols"><article><span class="small-number">01.1</span><h3>Calibrated confidence</h3><p>Develop uncertainty estimates that better reflect prediction reliability, with the aim of limiting errors associated with overconfidence.</p></article>
 <article><span class="small-number">01.2</span><h3>Uncertainty in explanations</h3><p>Enrich saliency maps with pixel-level uncertainty to indicate both influential image regions and the reliability of their interpretation.</p></article>
 <article><span class="small-number">01.3</span><h3>Multimodal segmentation</h3><p>Model uncertainty specific to each imaging modality, such as MRI or CT, when combining information for segmentation.</p></article></div>

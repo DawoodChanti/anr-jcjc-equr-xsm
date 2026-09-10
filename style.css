@@ -11,3 +11,6 @@
 
 /* Compact figure display; the linked image retains its original resolution. */
 .result-figure{max-width:680px;margin:28px auto 25px}.result-figure img{width:100%;height:auto}
+
+/* Self-contained project overview and scientific summary. */
+.project-summary{max-width:78ch}.project-summary h3{font-size:25px;margin:30px 0 14px}.project-summary p{margin-bottom:18px}.project-summary .source-note{margin:20px 0 30px}
